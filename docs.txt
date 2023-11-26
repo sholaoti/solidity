@@ -1,0 +1,20 @@
+1. At the website user should be able:
+ - sale already existed token (in this case he will define price and create sale record, his token will be transferred to the marketplace contract until somebody buy it or owner will delete sale record and withdraw his token)
+ - create sale record for the token that will be minted after it will be bought (in this case he will define price and upload image and necessary data like at nft factory)
+ - buy tokens (payment will be sent to the token owner, fee to the fee receiver, token will be minted or sent to the buyer)
+ Website should have pages (at least):
+ 1. Registration
+ 2. Login
+ 3. Email confirmation
+ 4. Change password
+ 5. Sale record creation page for existed token (user should specify contract address and tokenId, in the case of 1155 also amount should be specified) and non existed tokens (user should upload image and token data - name, description, properties)
+ 6. User's sale records list (with possibility to edit and delete records)
+ 7. Sale record editing page.
+ 8. Tokens for sale list with possibility to go to the details page or buy token.
+ 9. Token details page with possibility to buy token.
+ 10. User's purchases list.
+ 11. User's purchase details page.
+
+2. There should be 2 contracts (erc721 and erc1155) for minting tokens and a marketplace contract that can keep user's tokens and send it to the buyer or mint tokens to the buyer's address if non existed token is sold.
+
+

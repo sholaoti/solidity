@@ -1,0 +1,41 @@
+{
+    "erc721Minting": {
+        "latest": "0x059D626895c3FAEa3E2744B9f80BE998F0ddf50e",
+        "all": [
+            {
+                "address": "0x059D626895c3FAEa3E2744B9f80BE998F0ddf50e",
+                "timestamp": 1661778179
+            }
+        ]
+    },
+    "erc1155Minting": {
+        "latest": "0x4140D0433981A734ecadd3421d309f5374909A4b",
+        "all": [
+            {
+                "address": "0x4140D0433981A734ecadd3421d309f5374909A4b",
+                "timestamp": 1661778179
+            }
+        ]
+    },
+    "marketplace": {
+        "latest": "0x178eE86fEe287EE77b24af007ce52E7848F8c959",
+        "all": [
+            {
+                "address": "0xa65CB6aD56342591997359E5Deba2d18a4F6fbAb",
+                "timestamp": 1661778289
+            },
+            {
+                "address": "0x82A32eb7f8A0df744d2AAf1392F0B30da38eFd32",
+                "timestamp": 1661834362
+            },
+            {
+                "address": "0xC1211CB3DEcFB16597efC8b15BE54EE280e31a87",
+                "timestamp": 1661844371
+            },
+            {
+                "address": "0x178eE86fEe287EE77b24af007ce52E7848F8c959",
+                "timestamp": 1661855376
+            }
+        ]
+    }
+}
